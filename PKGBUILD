@@ -1,7 +1,7 @@
 # Maintainer: Tim Seckinger <seckinger.tim@gmail.com>
 
 pkgname=libinput-direct-abs-input
-pkgver=1.20.0.395d12d6
+pkgver=1.20.0.aedbb861
 pkgrel=1
 pkgdesc="Input device management and event handling library"
 url="https://github.com/jeysal/libinput-direct-abs-input"
@@ -17,7 +17,7 @@ optdepends=('gtk4: libinput debug-gui'
             'python-libevdev: libinput measure')
 source=(#https://freedesktop.org/software/$pkgname/$pkgname-$pkgver.tar.xz{,.sig}
         #https://gitlab.freedesktop.org/libinput/libinput/-/archive/$pkgver/$pkgname-$pkgver.tar.bz2 #{,.sig}.tar.bz2
-        "$pkgname-$pkgver"::"git+https://github.com/jeysal/libinput-direct-abs-input"
+        "$pkgname-$pkgver"::"git+https://github.com/jeysal/libinput-direct-abs-input#commit=aedbb861"
 )
 sha512sums=(#'f4b776d0da78c687ba21b430a04941ac6b43f68970c82ec9f7360358fdea5ed6a873948ce66a25bcdd64d4b95fa4bf705cc24dbc25c7c0f5fd2d0efbd763f298'
             'SKIP')
